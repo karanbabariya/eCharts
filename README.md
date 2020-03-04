@@ -23,11 +23,11 @@ Looking at the problem statement I will first install the dependencies that the 
 ## Results
 Graphic 1 and 2 were successfully recreated as seen below
 
-###Garphic 1
+### Graphic 1
 
 ![Graphic 1](Graphic1.JPG)
 
-###Garphic 2
+### Graphic 2
 
 ![Graphic 2](Graphic2.JPG)
 
