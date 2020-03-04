@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'metsco';
+
+  routes = [
+  	{linkName: 'Graphic 1', url: 'graphic1'},
+  	{linkName: 'Graphic 2', url: 'graphic2'}
+  ]
 }
