@@ -8,15 +8,13 @@ import { AppComponent } from './app.component';
 import { Graphics1Component } from './graphics1/graphics1.component';
 import { Graphics2Component } from './graphics2/graphics2.component';
 import { fetchDataService } from './fetchData.service';
-import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     Graphics1Component,
-    Graphics2Component,
-    HomeComponent
+    Graphics2Component
   ],
   imports: [
     BrowserModule,

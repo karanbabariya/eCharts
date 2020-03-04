@@ -19,7 +19,7 @@ export class Graphics2Component implements OnInit {
   }
 
   ngOnInit() {
-    //Fetch Data from the server and decorate chartOption to generate the chart
+    //Fetch Data from the server and decorate chartOption to generate the graphic2
     this.fetchData.usEmployment()
     .subscribe((response: any) => {
       this.response = response;
@@ -36,6 +36,10 @@ export class Graphics2Component implements OnInit {
         },
         tooltip: {
            trigger: 'axis',
+           axisPointer: {
+             type: 'cross',
+             show: true
+           },
            formatter: function (params) {
               return 'Population: ' + params[2]['value'] + '<br/>Employed Total: ' + params[1]['value'] +
                 '<br/>  Unemployed: ' + params[0]['value'];
